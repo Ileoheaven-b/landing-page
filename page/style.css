@@ -5,6 +5,7 @@ body {
     margin: 0px;
 }
 
+/* NAVIGATION BAR */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -37,4 +38,54 @@ a {
 
 .navbar {
     background-color: #1F2937;
+}
+
+/* SITE DESCRIPTION */
+.site-description {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    padding: 100px;
+}
+
+.text-box {
+    height: 250px;
+    width: 600px
+}
+
+.description-title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.description-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    background-color: #e5e7eb93;
+    height: 250px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 18px;
 }
